@@ -1,0 +1,63 @@
+/********** Template CSS **********/
+:root {
+    --primary: #6244C5;
+    --secondary: #FFC448;
+    --light: #FAFAFB;
+    --dark: #12141D;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+
+.my-6 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.py-6 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+
+/*** Skills ***/
+#skill .progress {
+    height: 5px;
+    border-radius: 5px;
+    width: 300%
+}
+
+#skill .progress .progress-bar {
+    width: 0px;
+    border-radius: 5px;
+    transition: 3s;
+    width: 100%;
+}
+
+#skill .nav-pills .nav-link {
+    color: var(--dark);
+    width: 100%;
+}
+
+#skill .nav-pills .nav-link.active {
+    color: #FFFFFF;
+    width: 100%;
+}
+
+#skill .tab-content hr {
+    width: 100%;
+}
+
+#skill {
+    width: 100%;
+}
+
+#skill .acd{
+    width: 100%;
+
+}
